@@ -3,7 +3,6 @@
 window.onload = function () {
 	var tabLinks = document.querySelectorAll(".tablinks");
 	var tabContent = document.querySelectorAll(".tabcontent");
-	console.log("asd")
 	function openTabs(el) {
 		var btnTarget = el.currentTarget;
 		var country = btnTarget.dataset.country;
@@ -20,7 +19,6 @@ window.onload = function () {
 
 		btnTarget.classList.add("active");
 	}
-	console.log(tabLinks)
 	tabLinks.forEach(function (el) {
 		el.addEventListener("click", openTabs);
 	});

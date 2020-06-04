@@ -26,20 +26,21 @@
         crossorigin="anonymous"></script>
     <!-- 부트스트랩-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <!-- 캘린더 -->
-    <script src='calendar.js'></script>
+    <script type="module" src='calendar.js'></script>
     <script src='../fullcalendar/main.js'></script>
     <script src='../fullcalendar/fullcalendar.min.js'></script>
     <script src='../fullcalendar/calendar-setting.js'></script>
+    <script src='../fullcalendar/core/locales-all.js'></script>
     <script type="text/javascript" charset="utf-8"
         src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js'></script>
 
     <!-- 커스텀 JS -->
-
+    <script type="module" src='./js/submit.js'></script>
     <script src='myChartOne.js'></script>
     <script src='myChartTwo.js'></script>
     <script src='./js/date/dataFormat.js' rel='stylesheet'></script>
-    <script src='js/test.js'></script>
     <script src='./js/tab.js'></script>
 
 </head>
@@ -59,56 +60,56 @@
         <div class="body">
             <!-- 검색창부분 -->
             <Center>
-                <form action="./index.html">
+                <form onsubmit="displayPlayer()">
                     <input type="text" name="IntraID" id="formStyle" placeholder="Search Your IntraID" required />
-                    <input type="submit" class="formButton" value="검색">
+                    <input type="submit" class="formButton" id='submitBtn' value="검색">
                 </form>
             </Center>
             <!-- 캘린더 캡션-->
             <div class="calendar-div">
                 <Center id="reportTitle">주차별 학습레포트 제출 현황</Center>
                 <h6 class="flex-container center">
-                    <div class="flex-container reportDate">
-                        <div class="reportMonth leftMargin reportDate">3</div>/1~
-                        <div class="reportMonth reportDate">3</div>/7
+                    <div class="flex-container">
+                        <div class="reportMonth"></div>/<div class="reportDate"></div>~
+                        <div class="reportMonth"></div>/<div class="reportDate"></div>
                     </div>
                     <div class="progress" style="padding:0;margin:0 15px 0 5px; width: 50px">
-                        <div class="progress-bar bar-active" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                            aria-valuemax="100" style="width:70%;">
-                            100%
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                            aria-valuemax="100" style="width:0%;">
+
                         </div>
                     </div>
-                    <div class="flex-container reportDate">
-                        <div class="reportMonth reportDate">3</div>/8~
-                        <div class="reportMonth reportDate">3</div>/14
+                    <div class="flex-container">
+                        <div class="reportMonth"></div>/<div class="reportDate"></div>~
+                        <div class="reportMonth"></div>/<div class="reportDate"></div>
 
                     </div>
                     <div class="progress" style="padding:0;margin:0 15px 0 5px; width: 50px">
                         <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                            aria-valuemax="100" style="width:70%;">
-                            70%
+                            aria-valuemax="100" style="width:0%;">
+
                         </div>
                     </div>
-                    <div class="flex-container reportDate">
-                        <div class="reportMonth reportDate">3</div>/15~
-                        <div class="reportMonth reportDate">3</div>/21
+                    <div class="flex-container">
+                        <div class="reportMonth"></div>/<div class="reportDate"></div>~
+                        <div class="reportMonth"></div>/<div class="reportDate"></div>
 
                     </div>
                     <div class="progress" style="padding:0;margin:0 15px 0 5px; width: 50px">
                         <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                            aria-valuemax="100" style="width:70%;">
-                            70%
+                            aria-valuemax="100" style="width:0%;">
+
                         </div>
                     </div>
-                    <div class="flex-container reportDate">
-                        <div class="reportMonth reportDate">3</div>/22~
-                        <div class="reportMonth reportDate">3</div>/28
+                    <div class="flex-container">
+                        <div class="reportMonth"></div>/<div class="reportDate"></div>~
+                        <div class="reportMonth"></div>/<div class="reportDate"></div>
 
                     </div>
                     <div class="progress" style="padding:0;margin:0 15px 0 5px; width: 50px">
                         <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                            aria-valuemax="100" style="width:70%;">
-                            70%
+                            aria-valuemax="100" style="width:0%;">
+
                         </div>
                     </div>
                 </h6>
