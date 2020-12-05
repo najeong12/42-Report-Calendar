@@ -1,5 +1,6 @@
 import { JSONdata } from "./js/submit.js"
-
+import { ChartCreate1 } from "./myChartOne.js"
+import { ChartCreate2 } from "./myChartTwo.js"
 export function calendarCreate(data) {
     // data 형식
     // {
@@ -53,6 +54,8 @@ export function calendarCreate(data) {
         .addEventListener('click', () => {
             resetCalendar()
             updateProgress()
+            ChartCreate1()
+            ChartCreate2()
         }
         );
     // 다음 달 보기 달력버튼
@@ -60,6 +63,8 @@ export function calendarCreate(data) {
         .addEventListener('click', () => {
             resetCalendar()
             updateProgress()
+            ChartCreate1()
+            ChartCreate2()
         }
         );
     // 오늘 보기 달력버튼
@@ -67,6 +72,8 @@ export function calendarCreate(data) {
         .addEventListener('click', () => {
             resetCalendar()
             updateProgress()
+            ChartCreate1()
+            ChartCreate2()
         }
         );
 };
@@ -91,7 +98,7 @@ export function updateProgress() {
         } else
             progress[i].className = 'progress-bar'
         progress[i].style = "width:" + percent + "%"
-        progress[i].innerHTML = percent + "%;"
+        progress[i].innerHTML = percent + "%"
     }
     // 4주차 계산(년도까지 마지막 넘어가는 주떄매 따로 계산)
     // 이번달 마지막주
@@ -108,7 +115,7 @@ export function updateProgress() {
     } else
         progress[3].className = 'progress-bar'
     progress[3].style = "width:" + percentLast + "%"
-    progress[3].innerHTML = percentLast + "%;"
+    progress[3].innerHTML = percentLast + "%"
 
 }
 //#endregion주차별 레포트 제출현황 업데이트
