@@ -1,0 +1,83 @@
+body {
+    background-color: #000000;
+    font-family: source-sans-pro, sans-serif;
+  }
+  
+  h1 {
+    margin-left: auto;
+    margin-top: 250px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 4.8em;
+    color: #f7f7f7;
+  }
+  
+  div {
+    width: 500px;
+    margin: auto;
+  }
+  
+  .formStyle { 
+    background-color: #000000;
+    padding: 20px; 
+    width: 400px; 
+    margin-bottom: 20px; 
+    border-bottom-width: 3px; 
+    border-bottom-style: solid; 
+    border-bottom-color: #00b9ba; 
+    border-top-style: none; 
+    border-right-style: none; 
+    border-left-style: none; 
+    font-size: 1.2em;
+    font-weight: 100;
+    color: #f7f7f7;
+  }
+  
+  .formButton {
+    float: right;
+    background-color:#f7f7f7;
+    display:inline-block;
+    color:#00b9ba;
+    font-size:25px;
+    font-weight: 400;
+    padding:6px 24px;
+    margin-top: 0px;
+    margin-right: 60px;
+    text-decoration:none;
+    border-bottom-color: none; 
+    border-top-style:none; 
+    border-right-style: none; 
+    border-left-style: none; 
+  }
+  
+  .formButton:hover {
+      background-color: #00b9ba;
+    color:#f7f7f7;
+  }
+  
+  .formButton:active {
+      position:relative;
+      top:3px;
+  }
+  
+  /*To remove the outline that appears on clicking the input textbox*/
+  input:focus {
+    outline: none;
+  }
+  
+  /* To format the placeholder text color */
+  ::-webkit-input-placeholder {
+     color: #f7f7f7;
+  }
+  
+  :-moz-placeholder { /* Firefox 18- */
+     color: #f7f7f7;  
+  }
+  
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #f7f7f7;  
+  }
+  
+  :-ms-input-placeholder {  
+     color: #f7f7f7;  
+  }

@@ -1,0 +1,158 @@
+
+/******************** top-header ******************/
+
+.main-logo {
+    margin: 0;
+    padding: 2% 7%;
+}
+
+.top-header {
+    background-color: #000;
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    border-bottom: 0.3px solid;
+    border-bottom-color: #00b9ba;
+    box-sizing: border-box;     /*안쪽 border line*/
+}
+.top-header2 {
+    background-color: #000;
+    width: 40%;
+    height: 100%;
+    margin: 0 0 0 5%;
+    border-bottom: 4px solid;
+    border-bottom-color: #00b9ba;
+    box-sizing: border-box;
+}
+
+.site-detail {
+    display: inline;
+    float: right;
+    color: #f7f7f7;
+    font-size: 1em;
+    margin: 30px;
+    padding: 0;
+}
+/********************core*******************/
+
+body {
+    background-color: #000000;
+    font-family: source-sans-pro, sans-serif;
+}
+
+
+.box-title{
+    margin: 10px 20px 0;
+    padding: 10px 0px;
+    font-size: 30px;
+    color: #000000;
+}
+.title{
+    margin: 180px 20px 0 20px;
+    padding: 10px 100px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.title2{
+    margin: 10px 20px 0 20px;
+    padding: 10px 100px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.box{
+    margin: 20px 200px 50px;
+    padding: 30px 0px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    border: solid;
+    border-color: #00b9ba;
+    box-sizing: border-box;
+}
+
+.bottom-box{
+    margin: 0;
+    padding: 20px 30px 0px 30px;
+    border-top-width: 1px; 
+    border-top-style: solid; 
+    border-top-color: #f7f7f7; 
+    border-bottom-style: none; 
+    border-right-style: none; 
+    border-left-style: none; 
+    font-size: 15px;
+    color: #f7f7f7;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+/****************calendar******************/
+
+#calendar {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+
+/****************bar-graph******************/
+.bar-body{
+    padding: 20px;
+    margin: 0 10%;
+}
+.bar-graph {
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.bar-graph span {
+    display: block;
+    padding:0 10px;
+    width: 60%;       /*주차별 완성도 계산해서 넣기*/
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    background-color: #00b9ba;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #fff; 
+    animation: stack 2s 1;
+}
+@keyframes stack{
+    0% { width: 0; color: rgba(255, 255, 255, 0);}
+    40% { color: rgba(255, 255, 255, 1);}
+    100% { width: 60%;}
+}
+/**************** line-graph ******************/
+.box2{
+    margin: 20px 200px 50px;
+    padding: 0px 0px;
+}
+
+.line-graph{
+    display: inline-block;
+    margin: 0;
+    padding: 100px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    border: solid;
+    border-color: #00b9ba;
+    box-sizing: border-box;
+    width: 930px;
+}
+/**************** pie-graph ******************/
+.pie-graph{
+    display: inline-block;
+    float: right;
+    margin: 0;
+    padding: 100px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    border: solid;
+    border-color: #00b9ba;
+    box-sizing: border-box;
+    width: 530px;
+}
