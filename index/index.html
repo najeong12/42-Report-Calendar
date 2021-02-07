@@ -7,27 +7,32 @@
         
         <!--stylesheet-->
         <link href="42index.css" rel="stylesheet" />
+
         <link href='../fullcalendar/main.css' rel='stylesheet' />
         <link href='../fullcalendar/fullcalendar.css' rel='stylesheet' />
+        <link href='../chartjs/Chart.css' rel='stylesheet' />
 
         <!--javascript-->
+        <script src='calendar.js'></script>
+        <script src='myChartOne.js'></script>
+        <script src='myChartTwo.js'></script>
+
         <script src='../fullcalendar/main.js'></script>
         <script src='../fullcalendar/fullcalendar.min.js'></script>
         <script src='../fullcalendar/calendar-setting.js'></script>
-        <script src='calendar.js'></script>
-        
-        
-    </head>
+
+        <script src='chartjs-plugin-labels.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js'></script>
+             </head>
 
     <body>
+        
         <div class="top-header">
             <div class="top-header2">
-                <div class="main-logo">
-                    <img src="../img/main_logo.png" alt="main-logo" style="max-width: 30%; height: auto; display:inline">
-                    <p class="site-detail" >
-                        42서울의 학습레포트를 달력형식으로 제공 / 주차별 학습레포트 성취도 / 학습 통계표를 제공하는 사이트입니다.
-                    </p>
-                </div>
+                    <img src="../img/main_logo.png" alt="main-logo" style="height: 100%;" align= "left">
+            </div>
+            <div class="top-header3">
+                    42서울의 학습레포트를 주차별 공부시간 / 동료학습 비율 / 학습레포트를 달력으로 제공하는 사이트입니다.
             </div>
         </div>
         
@@ -42,31 +47,25 @@
 
         <!-- 통계 그래프 2개 나란히 -->
         <div class="title2">주차별 학습시간 & 동료학습 방법</div>
-        <div class="box2">
+        <div class="graph-box">
             <div class="line-graph">
-                <!-- line-graph -->
+                <canvas id="myChartOne" ></canvas>
             </div>
             <div class="pie-graph">
-                <!-- pie-graph -->
+                <canvas id="myChartTwo" ></canvas>
             </div>
         </div>
         
-        <!--calendar-->
+        <!--calendar -->
         <div class="title2">42 Report Calendar</div>
-        <div class="box">
-            <div id="calendar" class="fc fc-media-screen fc-direction-ltr fc-theme-standard"></div>
+        <div class="calendar-box2">
+            <div class="calendar-box">
+                <div id="calendar" class="fc fc-media-screen fc-direction-ltr fc-theme-standard"></div>
+            </div>
         </div>
 
-        
-        
-        <div class="title2">Report List</div>
-        <div class="box">
-            <!--list-->
-        </div>
-
-        <!--Made by-->
+        <!--Made by -->
         <div class="bottom-box">42report_Calendar by Najlee / Jinykim</div>
-         
     </body>
 
 </html>
