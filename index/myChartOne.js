@@ -25,19 +25,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 display: true,
                 text: '주차별 공부시간',
                 fontSize: 20,
-                fontStyle: 'bold'
+                fontStyle: 'bold',
+                centered: true
             },
             legend: {
                 display: false
             },
-            responsive: false,
+            responsive: true,
             scales: {
                 yAxes: [{
                     ticks: {
                         beginAtZero: false
                     }
                 }]
-            }
+            }, 
+            
         }
     });
 });

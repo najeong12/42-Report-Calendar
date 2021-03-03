@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         events: [
             {
                 // id: 999,
-                title: '주제:Libft 공부\
+                title: '주제:Libft 공부 \
                         학습범위:Makefile, ft_memset, ft_bzero',
                 start: '2020-12-21',
                 rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20201221'
@@ -75,19 +75,19 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 // id: 999,
-                title: 'Printf 공부',
+                title: 'Printf - ft_di.c',
                 start: '2021-01-12',
                 rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20210112'
             },
             {
                 // id: 999,
-                title: 'Printf 공부',
+                title: 'Printf - ft_c.c',
                 start: '2021-01-13',
                 rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20210113'
             },
             {
                 // id: 999,
-                title: 'Printf 공부',
+                title: 'Printf - ft_x.c',
                 start: '2021-01-14',
                 rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20210114'
             },

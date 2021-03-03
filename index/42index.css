@@ -33,7 +33,7 @@
     height: 100%;
     width: 50%;
     min-width: 630px;
-    padding: 35px 0 35px 10px;
+    padding: 40px 0 35px 10px;
     border-bottom: 4px solid;
     border-bottom-color: #00b9ba;
     box-sizing: border-box;
@@ -164,17 +164,14 @@ body {
     border-color: #00b9ba;
     box-sizing: border-box;
     width: 64%;
-    height: 25vw;
+    height: 30vw;
     /* max-width: 50vw; */
     /* min-width: 40vw; */
 }
 
 #myChartOne{
-    width: 100%;
-    height: 80%;
-    /* max-width: 100%; */
-    /* height: 20%; */
-    position: center;
+    /* width: 45vw;
+    height: 30vh; */
 }
 
 /**************** pie-graph ******************/
@@ -190,7 +187,7 @@ body {
     border-color: #00b9ba;
     box-sizing: border-box;
     width: 23%;
-    height: 25vw;
+    height: 30vw;
     /* max-width: 30%; */
     /*min-width: 40%; */
     float: right;

@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var myChartTwo = new Chart(ctx, {
         type: 'pie',
         data: {
-            labels: ['Zoom', 'Slack', 'Discord', '기타'], 
+            labels: ['Slack', 'Zoom', 'Discord', '기타'], 
             datasets: [{
                 data: [40, 40, 15, 5],
                 backgroundColor: [
@@ -30,23 +30,21 @@ document.addEventListener('DOMContentLoaded', function() {
             title: {
                 display: true,
                 text: '동료학습 방법',
-                fontSize: 20,
+                fontSize: 20, 
                 fontStyle: 'bold'
             },
             legend: {
                 display: true,
                 position: 'bottom'
+            },
+            // animation: false,
+            pieceLabel: { 
+                mode:"label", 
+                // position: "", 
+                fontSize: 11, 
+                fontStyle: 'bold',
+                fontColor: '#000'
             }
         }
     });
 });
-
-/*
- ,
-            pieceLabel: { 
-                mode:'label',
-                position:'outside',
-                fontSize: 11, 
-                fontStyle: 'bold',
-            },
-*/
