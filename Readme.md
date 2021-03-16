@@ -4,10 +4,13 @@
 
 
 아래의 화면에 사용자의 인트라 아이디를 입력하면 
-<img width="875" alt="Input IntraID" src="https://user-images.githubusercontent.com/55748244/106870189-2a342780-6714-11eb-8c8f-06d08a4d7854.png">
+<img width="500" alt="Input IntraID" src="https://user-images.githubusercontent.com/55748244/106870189-2a342780-6714-11eb-8c8f-06d08a4d7854.png">
 
 1. 달력형식
+<img width="800" alt="Input IntraID" src="https://user-images.githubusercontent.com/55748244/106870189-2a342780-6714-11eb-8c8f-06d08a4d7854.png">
+
 2. 공부시간 그래프
 3. 이번주 레포트 완성도
+<img width="800" alt="Input IntraID" src="https://user-images.githubusercontent.com/55748244/106870189-2a342780-6714-11eb-8c8f-06d08a4d7854.png">
 를 제공해 주는 서비스이다.
 
