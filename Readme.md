@@ -1,3 +1,4 @@
+<사이트 접속방법><br/>
 기존의 리스트 형식으로 나열되었던 보고서의 정렬형식을<br/>
 <img width="200" alt="list-report" src="https://user-images.githubusercontent.com/55748244/106870174-26080a00-6714-11eb-97e8-0499383ccb47.png"><br/>
 사용자의 `인트라 아이디를 입력`하면<br/>
@@ -7,5 +8,5 @@
 `이번주 레포트 완성도` , `주차별 학습시간 & 동료학습 방법`을 제공해주는 서비스이다<br/>
 <img width="500" alt="Screen Shot 2021-03-16 at 2 36 44 PM" src="https://user-images.githubusercontent.com/55748244/111261064-37262e00-8665-11eb-8a2f-4f5191915a17.png"><br/>
 
-<사이트 접속방법>
+<사이트 접속방법><br/>
 파일들을 다운 -> main_page.html 클릭 -> 본인의 인트라 아이디 검색 (없는 인트라아이디 입력시 default값)
