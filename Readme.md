@@ -6,3 +6,6 @@
 <img width="500" alt="Screen Shot 2021-03-16 at 2 36 50 PM" src="https://user-images.githubusercontent.com/55748244/111261067-38eff180-8665-11eb-89f2-38ac7958ddce.png"><br/>
 `이번주 레포트 완성도` , `주차별 학습시간 & 동료학습 방법`을 제공해주는 서비스이다<br/>
 <img width="500" alt="Screen Shot 2021-03-16 at 2 36 44 PM" src="https://user-images.githubusercontent.com/55748244/111261064-37262e00-8665-11eb-8a2f-4f5191915a17.png"><br/>
+
+<사이트 접속방법>
+파일들을 다운 -> main_page.html 클릭 -> 본인의 인트라 아이디 검색 (없는 인트라아이디 입력시 default값)
