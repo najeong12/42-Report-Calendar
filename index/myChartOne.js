@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var myChartOne = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: ['1월 1주차', '1월 2주차', '1월 3주차', '1월 4주차', '2월 1주차', '2월 2주차'],
+            labels: ['3월 1주차', '3월 2주차', '3월 3주차', '3월 4주차', '4월 1주차', '4월 2주차'],
             datasets: [{
                 // label: '주별 공부시간',
                 data: [35, 60, 40, 60, 100, 70],

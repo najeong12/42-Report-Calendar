@@ -33,11 +33,12 @@
     height: 100%;
     width: 50%;
     min-width: 630px;
-    padding: 40px 0 35px 10px;
+    padding: 40px 0 10px 250px;
     border-bottom: 4px solid;
     border-bottom-color: #00b9ba;
     box-sizing: border-box;
     color: white;
+    font-size: 35px;
 }
 
 .site-detail {
@@ -97,7 +98,7 @@ body {
 
 /****************calendar******************/
 .calendar-box2{
-    margin: 0 70px;
+    margin: 0px 70px 0 70px;
 }
 .calendar-box{
     position: center;
@@ -108,7 +109,7 @@ body {
     border: solid;
     border-color: #00b9ba;
     box-sizing: border-box;
-    width: 70vw;
+    width: 76vw;
 }
 
 #calendar {
@@ -116,6 +117,9 @@ body {
     margin: 5% auto;
 }
 
+.fc-event-title.fc-sticky{
+    white-space: normal;
+}
 
 /****************bar-graph******************/
 .bar-body{
@@ -148,7 +152,7 @@ body {
 /**************** line-graph ******************/
 .graph-box{
     /* background-color: #f7f7f7; */
-    margin: 2vw 5vw 5vw;
+    margin: 150px 5vw 0vw;
     padding: 0vw 0vw;
     /* min-width: 1305px; */
 }

@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         data: {
             labels: ['Slack', 'Zoom', 'Discord', '기타'], 
             datasets: [{
-                data: [40, 40, 15, 5],
+                data: [50, 30, 15, 5],
                 backgroundColor: [
                     'rgba(227, 89, 132, 0.7)',
                     'rgba(60, 149, 254, 0.7)',
@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 hoverBorderWidth: 3,
             }]
         },
-        options: {
+        options: { 
             responsive: true, 
-            legend: false,
+            legend: false, 
             maintainAspectRatio : false, 
             animation: {
                 animateScale: true,
@@ -33,18 +33,36 @@ document.addEventListener('DOMContentLoaded', function() {
                 fontSize: 20, 
                 fontStyle: 'bold'
             },
-            legend: {
-                display: true,
-                position: 'bottom'
-            },
-            // animation: false,
-            pieceLabel: { 
-                mode:"label", 
-                // position: "", 
-                fontSize: 11, 
-                fontStyle: 'bold',
-                fontColor: '#000'
+            plugins: {
+                labels: {
+                    render: 'value',
+                    fontSize: 14,
+                    fontStyle: 'bold',
+                    fontColor: '#000',
+                    fontFamily: '"Lucida Console", Monaco, monospace'
+                }
             }
+            // legend: {
+            //     // display: true,
+            //     // position: 'bottom',
+            //     labels: {
+            //         render: 'label'
+            //     }
+            // }
         }
+
+
+        ///////-------------------------------------------
+            // // animation: false,
+            // pieceLabel: { 
+            //     mode:"label", position:"outside", fontSize: 11, fontStyle: 'bold'
+
+            //     // ,mode:"label", 
+            //     // // position: "", 
+            //     // fontSize: 11, 
+            //     // fontStyle: 'bold',
+            //     // fontColor: '#000'
+            // }
+        // }
     });
 });

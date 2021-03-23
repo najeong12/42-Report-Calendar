@@ -1,97 +1,75 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     var calendarEl = document.getElementById('calendar');
-
+    //var today_date = calendar.getDate();
+    
     var calendar = new FullCalendar.Calendar(calendarEl, {
         headerToolbar: {
             left: 'prev,next',
             center: 'title',
             right: 'today'
         },
-        initialDate: '2021-01-01',
-        // navLinks: true,
-        editable: false,
-        // dayMaxEvents: true,
-        events: [
+        initialDate: '2021-03-01' //today_date  //오늘 날짜로 변경해야 함
+        , editable : true
+        , eventLimit : true
+        , events: [
             {
-                // id: 999,
-                title: '주제:Libft 공부 \
-                        학습범위:Makefile, ft_memset, ft_bzero',
-                start: '2020-12-21',
-                rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20201221'
+                start: '2021-03-06',
+                overlap: false,
+                display: 'background',
+                backgroundColor: "#00b9ba"
             },
             {
-                // id: 999,
-                title: 'Libft 공부',
-                start: '2020-12-22',
-                rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20201222'
+                title : 'libft 과제이해     동료학습:zoom    본과정 과제는 어렵다',   //줄바꿈 어뜨케 함?
+                start: '2021-03-06',
+                backgroundColor: "rgba(0, 185, 186, 0)",
+                borderColor : "rgba(0, 185, 186, 0)",
+                textColor : "#000000"
+            },
+            //
+            {
+                start: '2021-03-07',
+                overlap: false,
+                display: 'background',
+                backgroundColor: "#00b9ba"
             },
             {
-                // id: 999,
-                title: 'Libft 공부',
-                start: '2020-12-23',
-                rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20201223'
+                title : '가나다라마바사아자차카타파하',
+                start: '2021-03-07',
+                backgroundColor: "rgba(0, 185, 186, 0)",
+                borderColor : "rgba(0, 185, 186, 0)",
+                textColor : "#000000"
+            },
+            //
+            {
+                start: '2021-03-09',
+                overlap: false,
+                display: 'background',
+                backgroundColor: "#00b9ba"
             },
             {
-                // id: 999,
-                title: 'Libft 공부',
-                start: '2020-12-24',
-                rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20201224'
+                title : '가나다라마바사아자차카타파하',
+                start: '2021-03-09',
+                backgroundColor: "rgba(0, 185, 186, 0)",
+                borderColor : "rgba(0, 185, 186, 0)",
+                textColor : "#000000"
             },
+            //
             {
-                // id: 999,
-                title: 'Libft 공부',
-                start: '2020-12-26',
-                rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20201226'
-            },
-            {
-                // id: 999,
-                title: 'Libft 공부',
-                start: '2021-01-04',
-                rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20210104'
-            },
-            {
-                // id: 999,
-                title: 'Libft 공부',
-                start: '2021-01-05',
-                rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20210105'
-            },
-            {
-                // id: 999,
-                title: 'Netwhat 공부',
-                start: '2021-01-07',
-                rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20210107'
-            },
-            {
-                // id: 999,
-                title: 'Netwhat 공부',
-                start: '2021-01-08',
-                rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20210108'
-            },
-            {
-                // id: 999,
-                title: 'Netwhat 공부',
                 start: '2021-01-10',
-                rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20210110'
+                overlap: false,
+                display: 'background',
+                backgroundColor: "#00b9ba"
             },
             {
-                // id: 999,
-                title: 'Printf - ft_di.c',
-                start: '2021-01-12',
-                rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20210112'
-            },
-            {
-                // id: 999,
-                title: 'Printf - ft_c.c',
-                start: '2021-01-13',
-                rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20210113'
-            },
-            {
-                // id: 999,
-                title: 'Printf - ft_x.c',
-                start: '2021-01-14',
-                rul: 'http://git.innovationacademy.kr/najlee/report/wiki/20210114'
+                title : 'libft 평가',
+                start: '2021-01-10',
+                backgroundColor: "rgba(0, 185, 186, 0)",
+                borderColor : "rgba(0, 185, 186, 0)",
+                textColor : "#000000"
             },
         ]
+        
         // ,
         // eventClick: function(event) {
         //     if (event.url) {
