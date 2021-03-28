@@ -120,7 +120,7 @@ body {
 
 /****************calendar******************/
 .calendar-box2{
-    margin: 0px 70px 0 70px;
+    margin: 0px 70px -20px 70px;
 }
 .calendar-box{
     position: center;
@@ -172,9 +172,15 @@ body {
     100% { width: 60%;}
 }
 /**************** line-graph ******************/
-.graph-box{
+.header-margin{
     /* background-color: #f7f7f7; */
     margin: 150px 5vw 0vw;
+    padding: 0vw 0vw;
+    /* min-width: 1305px; */
+}
+.graph-box{
+    /* background-color: #f7f7f7; */
+    margin: 0px 20px 30px 20px;
     padding: 0vw 0vw;
     /* min-width: 1305px; */
 }

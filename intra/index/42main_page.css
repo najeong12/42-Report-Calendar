@@ -1,6 +1,5 @@
 body {
     background-image: url(../img/background_login.jpg);
-    font-family: source-sans-pro, sans-serif;
   }
   
   h1 {
@@ -12,17 +11,17 @@ body {
     color: #f7f7f7;
   }
   
-  div {
-    width: 500px;
-    margin: auto;
+  .horizonCenter {
+    position: relative;
+    left:calc(50% - 250px);
+    margin-bottom: 20px;
   }
   
-  .formStyle { 
+  #formStyle { 
     background-color: #000000;
     padding: 20px; 
     width: 400px; 
-    margin-bottom: 20px; 
-    border-bottom-width: 3px; 
+    border-bottom-width: 3px;
     border-bottom-style: solid; 
     border-bottom-color: #00b9ba; 
     border-top-style: none; 
@@ -36,13 +35,10 @@ body {
   .formButton {
     float: none;
     background-color:#f7f7f7;
-    display:inline-block;
     color:#00b9ba;
     font-size:25px;
     font-weight: 400;
     padding:6px 24px;
-    margin-top: 0px;
-    margin-right: 60px;
     text-decoration:none;
     border-bottom-color: none; 
     border-top-style:none; 

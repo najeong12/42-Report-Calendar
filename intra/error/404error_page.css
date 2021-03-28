@@ -163,7 +163,7 @@ body {
 }
 
 /**************** line-graph ******************/
-.graph-box {
+.header-margin {
 	/* background-color: #f7f7f7; */
 	margin: 150px 5vw 0vw;
 	padding: 0vw 0vw;
