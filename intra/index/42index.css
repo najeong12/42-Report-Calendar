@@ -1,6 +1,28 @@
 
 /******************** top-header ******************/
 
+.center{
+    align-items: center;
+    justify-content: center;
+}
+.failReport{
+    color:gray !important;
+    text-decoration:line-through;
+}
+.flex-container {
+    display: flex;
+}
+
+.flex-container>div {
+    color:white;
+}
+
+.leftMargin{
+    margin-left: 5px;
+}
+.rightMargin{
+    margin-right: 5px;
+}
 .main-logo {
     margin: 0;
     padding: 2% 7%;

@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-image: url(../img/background_login.jpg);
     font-family: source-sans-pro, sans-serif;
   }
   
@@ -34,7 +34,7 @@ body {
   }
   
   .formButton {
-    float: right;
+    float: none;
     background-color:#f7f7f7;
     display:inline-block;
     color:#00b9ba;
