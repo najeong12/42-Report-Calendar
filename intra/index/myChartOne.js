@@ -21,13 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }]
         },
         options: {
-            title: {
-                display: true,
-                text: '주차별 공부시간',
-                fontSize: 20,
-                fontStyle: 'bold',
-                centered: true
-            },
             legend: {
                 display: false
             },

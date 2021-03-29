@@ -351,7 +351,7 @@ body {
 	z-index: -3;
 	position: relative;
 	opacity: 1;
-	padding: 40px 60px;
+	padding: 10px 10px;
 	overflow: hidden;
 	transition: all 1s ease;
 	top: 0;

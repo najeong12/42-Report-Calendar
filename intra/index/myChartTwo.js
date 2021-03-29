@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     var ctx = document.getElementById('myChartTwo').getContext('2d');
     var myChartTwo = new Chart(ctx, {
-        type: 'pie',
+        type: 'bar',
         data: {
-            labels: ['Slack', 'Zoom', 'Discord', '기타'], 
+            labels: ['minsekim', 'Jinykim', 'Najlee', '기타'], 
             datasets: [{
                 data: [50, 30, 15, 5],
                 backgroundColor: [
@@ -26,12 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
             animation: {
                 animateScale: true,
                 animateRotate: true
-            },
-            title: {
-                display: true,
-                text: '동료학습 방법',
-                fontSize: 20, 
-                fontStyle: 'bold'
             },
             plugins: {
                 labels: {

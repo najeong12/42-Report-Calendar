@@ -11,19 +11,12 @@ body {
     color: #f7f7f7;
   }
   
-  .horizonCenter {
-    position: relative;
-    left:calc(50% - 250px);
-    margin-bottom: 20px;
-  }
-  
   #formStyle { 
     background-color: #000000;
-    padding: 20px; 
-    width: 400px; 
-    border-bottom-width: 3px;
-    border-bottom-style: solid; 
-    border-bottom-color: #00b9ba; 
+    max-width: 300px;
+    width: 50vw;
+    height: 30px;
+    padding-left:10px;
     border-top-style: none; 
     border-right-style: none; 
     border-left-style: none; 
@@ -34,11 +27,12 @@ body {
   
   .formButton {
     float: none;
+    max-width: 100px;
+    width:10vw;
+    height: 35px;
     background-color:#f7f7f7;
-    color:#00b9ba;
-    font-size:25px;
+    font-size:17px;
     font-weight: 400;
-    padding:6px 24px;
     text-decoration:none;
     border-bottom-color: none; 
     border-top-style:none; 
