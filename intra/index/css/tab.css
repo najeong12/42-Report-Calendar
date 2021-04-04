@@ -150,10 +150,6 @@
 	background-color: #0077b5;
 }
 
-/* main 1*/
-/* main 2*/
-/* neutral 1*/
-/* neutral 2*/
 body {
 	background-color: #2e2e2e;
 	font-family: "IBM Plex Sans", sans-serif;
@@ -173,8 +169,7 @@ body {
 	max-width: 600px;
 	width: 90%;
 	min-width: 260px;
-	margin: 0 5%;
-	margin-top: 10%;
+	margin: 15px auto;
 	transition: 0.3s ease;
 }
 

@@ -15,7 +15,8 @@
 }
 
 .flex-container>div {
-    color:white;
+    color:black;
+    font-size: 15px;
 }
 
 .leftMargin{
@@ -64,10 +65,25 @@
     height: 90%;
 }
 /******************** 학습레포트 *******************/
-#reportTitle{
-    color:white;
+ .bar-active {
+    width:100% !important;
+    background-color: green !important;
+}
+.calendar-div{
+    color:black;
     margin-top:30px;
     margin-bottom:5px;
+    border: medium solid #00b9ba;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 600px;
+     padding: 10px 0;
+
+}
+#reportTitle{
+   margin-bottom: 5px;
+    font-weight: bold;
+    font-family: "맑은 고딕",sans-serif;
 
 }
 /********************core*******************/
