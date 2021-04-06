@@ -1,6 +1,7 @@
 import { JSONdata } from "./js/submit.js"
-import { ChartCreate1 } from "./myChartOne.js"
-import { ChartCreate2 } from "./myChartTwo.js"
+import { ChartCreate1, myChartOne } from "./myChartOne.js"
+import { ChartCreate2, myChartTwo } from "./myChartTwo.js"
+import { ChartCreate3, myChartThree } from "./myChartThree.js"
 export function calendarCreate(data) {
     // data 형식
     // {
@@ -54,8 +55,12 @@ export function calendarCreate(data) {
         .addEventListener('click', () => {
             resetCalendar()
             updateProgress()
+            myChartOne.destroy()
             ChartCreate1()
+            myChartTwo.destroy()
             ChartCreate2()
+            myChartThree.destroy()
+            ChartCreate3()
         }
         );
     // 다음 달 보기 달력버튼
@@ -63,8 +68,12 @@ export function calendarCreate(data) {
         .addEventListener('click', () => {
             resetCalendar()
             updateProgress()
+            myChartOne.destroy()
             ChartCreate1()
+            myChartTwo.destroy()
             ChartCreate2()
+            myChartThree.destroy()
+            ChartCreate3()
         }
         );
     // 오늘 보기 달력버튼
@@ -72,8 +81,12 @@ export function calendarCreate(data) {
         .addEventListener('click', () => {
             resetCalendar()
             updateProgress()
+            myChartOne.destroy()
             ChartCreate1()
+            myChartTwo.destroy()
             ChartCreate2()
+            myChartThree.destroy()
+            ChartCreate3()
         }
         );
 };

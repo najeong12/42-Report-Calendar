@@ -1,5 +1,5 @@
 import { JSONdata } from "./js/submit.js"
-
+var myChartTwo = '';
 export function ChartCreate2() {
 
     let month = Number(document.getElementsByClassName('reportMonth')[0].innerHTML);
@@ -13,14 +13,13 @@ export function ChartCreate2() {
     for (let i = 0; i < lastDate; i++) {
         let data = JSONdata.filter(d => d.Month == today.getMonth() + 1 && d.year == today.getFullYear() && d.date == today.getDate());
         if (data[0] != null) {
-            let studyTime = Number(data[0].studyTime)
             let studyMember = data[0].studyMember
-            if (studyTime > 0)
+            if (studyMember != null)
                 studyMember.map((member) => {
                     if (studymember.get(member) == null)
-                        studymember.set(member, studyTime);
+                        studymember.set(member, 1);
                     else
-                        studymember.set(member, studymember.get(member) + studyTime);
+                        studymember.set(member, studymember.get(member) + 1);
                 })
 
         }
@@ -28,52 +27,39 @@ export function ChartCreate2() {
     }
     // 추적한 멤버 목록 토대로 sort
     let memberSort = [...studymember.entries()].sort((a, b) => a[1] < b[1])
-    console.log(memberSort)
-    var ctx = document.getElementById('myChartTwo').getContext('2d');
-    var myChartTwo = new Chart(ctx, {
+    var ctx2 = document.getElementById('myChartTwo').getContext('2d');
+    myChartTwo = new Chart(ctx2, {
         type: 'bar',
         data: {
-            labels: [...memberSort.map(d => d[0]).slice(0, 4)],
+            labels: [...memberSort.map(d => d[0]).slice(0, 9)],
             datasets: [{
-                data: [...memberSort.map(d => d[1]).slice(0, 4)],
+                data: [...memberSort.map(d => d[1]).slice(0, 9)],
                 backgroundColor: [
                     'rgba(227, 89, 132, 0.7)',
                     'rgba(60, 149, 254, 0.7)',
                     'rgba(56, 234, 100, 0.7)',
                     'rgba(231, 227, 32, 0.7)'
                 ],
-                label: 'Dataset 1',
+                label: '함께 한 동료 횟수(한달 기준)',
+                color: 'black',
+                display:false,
                 borderColor: 'rgba(255, 255, 255, 1)',
                 borderWidth: 0,
                 hoverBorderColor: 'rgba(0, 185, 186, 1)',
                 hoverBorderWidth: 3,
-            }]
+            }],
+
         },
         options: {
+            lengend: false,
+            layout: { padding: 10, margin: 10 },
             responsive: true,
-            legend: false,
             maintainAspectRatio: false,
             animation: {
                 animateScale: true,
                 animateRotate: true
             },
-            plugins: {
-                labels: {
-                    render: 'value',
-                    fontSize: 14,
-                    fontStyle: 'bold',
-                    fontColor: '#000',
-                    fontFamily: '"Lucida Console", Monaco, monospace'
-                }
-            }
-            // legend: {
-            //     // display: true,
-            //     // position: 'bottom',
-            //     labels: {
-            //         render: 'label'
-            //     }
-            // }
-        }
+        },
 
 
         ///////-------------------------------------------
@@ -90,3 +76,5 @@ export function ChartCreate2() {
         // }
     });
 }
+
+export { myChartTwo };

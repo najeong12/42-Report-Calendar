@@ -21,14 +21,12 @@
     <!--javascript-->
 
 
-
-    <script src="./contents/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <!-- moment -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"
         integrity="sha512-LGXaggshOkD/at6PFNcp2V2unf9LzFq6LE+sChH7ceMTDP0g2kn6Vxwgg7wkPP7AAtX+lmPqPdxB47A0Nz0cMQ=="
         crossorigin="anonymous"></script>
     <!-- 부트스트랩-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!-- 캘린더 -->
     <script type="module" src='calendar.js'></script>
@@ -36,13 +34,13 @@
     <script src='../fullcalendar/fullcalendar.min.js'></script>
     <script src='../fullcalendar/calendar-setting.js'></script>
     <script src='../fullcalendar/core/4.2.0/locales-all.js'></script>
-    <script type="module" charset="utf-8"
-        src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js'></script>
+    <script type="module" src='./js/chart.min.js'></script>
 
     <!-- 커스텀 JS -->
     <script type="module" src='./js/submit.js'></script>
     <script type="module" src='myChartOne.js'></script>
     <script type="module" src='myChartTwo.js'></script>
+    <script type="module" src='myChartThree.js'></script>
     <script src='./js/date/dataFormat.js' rel='stylesheet'></script>
     <script src='./js/tab.js'></script>
 
@@ -133,7 +131,10 @@
                     <p data-title="tab1">주차별학습시간</p>
                 </button>
                 <button class="tablinks" data-country="tab2">
-                    <p data-title="tab2">동료그래프</p>
+                    <p data-title="tab2">동료 학습 횟수</p>
+                </button>
+                <button class="tablinks" data-country="tab3">
+                    <p data-title="tab3">연도별 학습 시간</p>
                 </button>
             </div>
 
@@ -142,10 +143,13 @@
                     <h3>주차별학습시간</h3>
                     <canvas id="myChartOne"></canvas>
                 </div>
-
                 <div id="tab2" class="tabcontent">
-                    <h3>동료그래프</h3>
+                    <h3>동료 학습 횟수</h3>
                     <canvas id="myChartTwo"></canvas>
+                </div>
+                <div id="tab3" class="tabcontent">
+                    <h3>연도별 학습 시간</h3>
+                    <canvas id="myChartThree"></canvas>
                 </div>
             </div>
         </div>

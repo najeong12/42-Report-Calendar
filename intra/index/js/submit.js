@@ -1,8 +1,9 @@
 import { calendarCreate, updateProgress } from "../calendar.js"
 import { ChartCreate1 } from "../myChartOne.js"
 import { ChartCreate2 } from "../myChartTwo.js"
+import { ChartCreate3 } from "../myChartThree.js"
 var JSONdata = '';
-fetch('http://192.168.218.2:8000/testJSON/test3.json', {
+fetch('http://192.168.218.2:8000/testJSON/test1.json', {
 }).then(function (response) {
 	// console.log('response', response)
 	// console.log('header', response.headers.get('Content-Type'))
@@ -35,10 +36,11 @@ fetch('http://192.168.218.2:8000/testJSON/test3.json', {
 	// 캘린더 초기화
 	calendarCreate(JSON.parse(text).report);
 	JSONdata = JSON.parse(text).report
-	// 주차별 학습레포트 초기화
+	// 그래프 초기화
 	ChartCreate1();
-	// 동료그래프초기회
 	ChartCreate2();
+	ChartCreate3();
+
 	updateProgress();
 }).catch(function (ex) {
 	console.log('failed', ex)
