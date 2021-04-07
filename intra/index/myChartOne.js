@@ -9,7 +9,7 @@ export function ChartCreate1() {
     let today = new Date(year, month - 1, day);
     let lastDate = new Date(year, month, 0).getDate()
 
-    let studytime = [0, 0, 0, 0, 0, 0];
+    let studytime = [0.0, 0, 0, 0, 0, 0];
     let i = 0;
     let labelList = [
         month + '월 1주차',
@@ -36,7 +36,7 @@ export function ChartCreate1() {
 
     if (studytime)
         myChartOne = new Chart(ctx, {
-            type: 'line',
+            type: 'bar',
             data: {
                 labels: labelList,
                 datasets: [{
@@ -65,7 +65,14 @@ export function ChartCreate1() {
                         }
                     }]
                 },
-
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            beginAtZero: true,
+                            fontSize: 14,
+                        }
+                    }]
+                }
             }
         });
 }

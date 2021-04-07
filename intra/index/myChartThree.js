@@ -25,8 +25,6 @@ export function ChartCreate3() {
         if (month_data[0] != null) {
             const add = (a, b) => a + b;
             studytime[i] = month_data.map(d => d.studyTime).reduce(add)
-            console.log(initDate.getMonth() + 1 + "월", month_data)
-
         }
         initDate.setMonth(initDate.getMonth() + 1);
     }
@@ -43,7 +41,7 @@ export function ChartCreate3() {
 
 
     myChartThree = new Chart(ctx, {
-        type: 'line',
+        type: 'bar',
         data: {
             labels: labelList,
             datasets: [{

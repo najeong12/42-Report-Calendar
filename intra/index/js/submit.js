@@ -3,7 +3,7 @@ import { ChartCreate1 } from "../myChartOne.js"
 import { ChartCreate2 } from "../myChartTwo.js"
 import { ChartCreate3 } from "../myChartThree.js"
 var JSONdata = '';
-fetch('http://192.168.218.2:8000/testJSON/test1.json', {
+fetch('http://192.168.200.200:8000/testJSON/test1.json', {
 }).then(function (response) {
 	// console.log('response', response)
 	// console.log('header', response.headers.get('Content-Type'))
