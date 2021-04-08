@@ -6,7 +6,7 @@
 아래의 화면에 사용자의 인트라 아이디를 입력하면 
 <img width="875" alt="Input IntraID" src="https://user-images.githubusercontent.com/55748244/106870189-2a342780-6714-11eb-8c8f-06d08a4d7854.png">
 
-![aa](https://user-images.githubusercontent.com/55748244/106870189-2a342780-6714-11eb-8c8f-06d08a4d7854.png =100x20)
+[aa](https://user-images.githubusercontent.com/55748244/106870189-2a342780-6714-11eb-8c8f-06d08a4d7854.png =100x20)
 1. 달력형식
 2. 공부시간 그래프
 3. 이번주 레포트 완성도
