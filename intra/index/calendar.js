@@ -1,4 +1,4 @@
-import { JSONdata } from "./js/submit.js"
+import { JSONdata } from "../js/submit.js"
 import { ChartCreate1, myChartOne } from "./myChartOne.js"
 import { ChartCreate2, myChartTwo } from "./myChartTwo.js"
 import { ChartCreate3, myChartThree } from "./myChartThree.js"

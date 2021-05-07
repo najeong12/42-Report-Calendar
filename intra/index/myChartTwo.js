@@ -1,4 +1,4 @@
-import { JSONdata } from "./js/submit.js"
+import { JSONdata } from "../js/submit.js"
 var myChartTwo = '';
 export function ChartCreate2() {
 

@@ -1,11 +1,13 @@
-import { calendarCreate, updateProgress } from "../calendar.js"
-import { ChartCreate1 } from "../myChartOne.js"
-import { ChartCreate2 } from "../myChartTwo.js"
-import { ChartCreate3 } from "../myChartThree.js"
+import { calendarCreate, updateProgress } from "../index/calendar.js"
+import { ChartCreate1 } from "../index/myChartOne.js"
+import { ChartCreate2 } from "../index/myChartTwo.js"
+import { ChartCreate3 } from "../index/myChartThree.js"
 var JSONdata = '';
-fetch('http://192.168.200.200:8000/testJSON/test1.json', {
+var searchName = window.location.href.slice([window.location.href.indexOf('intra') + 10]);
+if (searchName.length > 0)
+fetch('http://42report.today/intra?id=' + searchName, {//''http://42report.today/intra?id=yongkim'
 }).then(function (response) {
-	// console.log('response', response)
+	console.log('response', response)
 	// console.log('header', response.headers.get('Content-Type'))
 	return response.text()
 }).then(function (text) {
