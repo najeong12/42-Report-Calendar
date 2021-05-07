@@ -5,7 +5,7 @@ import { ChartCreate3 } from "../index/myChartThree.js"
 var JSONdata = '';
 var searchName = window.location.href.slice([window.location.href.indexOf('intra') + 10]);
 if (searchName.length > 0)
-fetch('http://42report.today/intra?id=' + searchName, {//''http://42report.today/intra?id=yongkim'
+fetch('https://42report.today/intra?id=' + searchName, {//''http://42report.today/intra?id=yongkim'
 }).then(function (response) {
 	console.log('response', response)
 	// console.log('header', response.headers.get('Content-Type'))
