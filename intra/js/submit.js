@@ -3,7 +3,7 @@ import { ChartCreate1 } from "../index/myChartOne.js"
 import { ChartCreate2 } from "../index/myChartTwo.js"
 import { ChartCreate3 } from "../index/myChartThree.js"
 var JSONdata = '';
-var searchName = window.location.href.slice([window.location.href.indexOf('intra') + 10]);
+var searchName = window.location.href.slice([window.location.href.indexOf('IntraID') + 7]);
 if (searchName.length > 0)
 fetch('https://42report.today/intra?id=' + searchName, {//''http://42report.today/intra?id=yongkim'
 }).then(function (response) {
