@@ -66,6 +66,13 @@ export function ChartCreate2() {
                         padding: 7,
                         stepSize: 1,
                     }
+                }],
+                xAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                        padding: 7,
+                        stepSize: 1,
+                    }
                 }]
             }
         },
