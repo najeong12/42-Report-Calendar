@@ -27,4 +27,4 @@ response error => 해당 카뎃이 없거나 public report가 없음으로 뷰�
 
 # 모바일
 
-![KakaoTalk_Photo_2021-05-09-23-47-07](https://user-images.githubusercontent.com/23623248/117576529-497e8e80-b121-11eb-897e-0565cf45ce9c.jpeg)(: width="33%" height="auto") ![KakaoTalk_Photo_2021-05-09-23-47-33](https://user-images.githubusercontent.com/23623248/117576535-4d121580-b121-11eb-88d6-2ae9b0ac7a1a.jpeg)(: width="33%" height="auto") ![KakaoTalk_Photo_2021-05-09-23-47-26](https://user-images.githubusercontent.com/23623248/117576536-4e434280-b121-11eb-98f0-c59ef21e5fbf.jpeg)(: width="33%" height="auto")
+![KakaoTalk_Photo_2021-05-09-23-47-07](https://user-images.githubusercontent.com/23623248/117576529-497e8e80-b121-11eb-897e-0565cf45ce9c.jpeg){: width="33%"} ![KakaoTalk_Photo_2021-05-09-23-47-33](https://user-images.githubusercontent.com/23623248/117576535-4d121580-b121-11eb-88d6-2ae9b0ac7a1a.jpeg)(: width="33%" height="auto") ![KakaoTalk_Photo_2021-05-09-23-47-26](https://user-images.githubusercontent.com/23623248/117576536-4e434280-b121-11eb-98f0-c59ef21e5fbf.jpeg)(: width="33%" height="auto")
