@@ -4,7 +4,10 @@
 
 
 아래의 화면에 사용자의 인트라 아이디를 입력하면 
-<img width="875" alt="Input IntraID" src="https://user-images.githubusercontent.com/55748244/106870189-2a342780-6714-11eb-8c8f-06d08a4d7854.png">
+![스크린샷 2021-05-09 오후 8 52 44](https://user-images.githubusercontent.com/23623248/117571339-21833100-b109-11eb-8e36-d79c2a497b8b.png)
+![스크린샷 2021-05-09 오후 8 49 46](https://user-images.githubusercontent.com/23623248/117571347-28aa3f00-b109-11eb-9b19-a54e0ce8f9f6.png)
+![스크린샷 2021-05-09 오후 8 49 50](https://user-images.githubusercontent.com/23623248/117571349-29db6c00-b109-11eb-8017-be1cf0862582.png)
+![스크린샷 2021-05-09 오후 8 49 54](https://user-images.githubusercontent.com/23623248/117571350-2a740280-b109-11eb-8408-0995dae51ddc.png)
 
 1. 달력형식
 2. 공부시간 그래프
