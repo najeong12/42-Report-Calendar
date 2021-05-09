@@ -4,7 +4,7 @@ js / css / ec2 / docker / chartjs / 42seoul-API / 반응형웹 / 모바일웹
 # 서비스 소개
 이 서비스는 기존에 목록형식으로 보여주었던 아래의 사이트에 기능을 추가하여
 
-<img src="https://user-images.githubusercontent.com/55748244/106870174-26080a00-6714-11eb-97e8-0499383ccb47.png" height="200px"/>
+<img src="https://user-images.githubusercontent.com/55748244/106870174-26080a00-6714-11eb-97e8-0499383ccb47.png" height="300px"/>
 
 아래의 화면에 사용자의 인트라 아이디를 입력하면 <br/>
 <img src="https://user-images.githubusercontent.com/23623248/117571415-673ff980-b109-11eb-8b09-9e61361161a5.png" width="50%"/><img src="https://user-images.githubusercontent.com/23623248/117571347-28aa3f00-b109-11eb-9b19-a54e0ce8f9f6.png" width="50%"/>
