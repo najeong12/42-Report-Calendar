@@ -26,5 +26,5 @@ response error => 해당 카뎃이 없거나 public report가 없음으로 뷰�
 ![스크린샷 2021-05-09 오후 9 21 13](https://user-images.githubusercontent.com/23623248/117572351-7c1e8c00-b10d-11eb-817f-256844070008.png)
 
 # 모바일
-
+<img src="https://user-images.githubusercontent.com/23623248/117576529-497e8e80-b121-11eb-897e-0565cf45ce9c.jpeg" width="33%"/>
 ![KakaoTalk_Photo_2021-05-09-23-47-07](https://user-images.githubusercontent.com/23623248/117576529-497e8e80-b121-11eb-897e-0565cf45ce9c.jpeg)![KakaoTalk_Photo_2021-05-09-23-47-33](https://user-images.githubusercontent.com/23623248/117576535-4d121580-b121-11eb-88d6-2ae9b0ac7a1a.jpeg)![KakaoTalk_Photo_2021-05-09-23-47-26](https://user-images.githubusercontent.com/23623248/117576536-4e434280-b121-11eb-98f0-c59ef21e5fbf.jpeg)
