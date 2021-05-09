@@ -17,3 +17,6 @@
 # 에러체크
 404 에러 => 서버에서 404 응답반환
 response error => 해당 카뎃이 없거나 public report가 없음으로 뷰에서 출력.
+
+![스크린샷 2021-05-09 오후 9 21 24](https://user-images.githubusercontent.com/23623248/117572350-7aed5f00-b10d-11eb-8e9c-95663ed95c5a.png)
+![스크린샷 2021-05-09 오후 9 21 13](https://user-images.githubusercontent.com/23623248/117572351-7c1e8c00-b10d-11eb-817f-256844070008.png)
